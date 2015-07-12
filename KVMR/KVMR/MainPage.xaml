@@ -4,7 +4,7 @@
              x:Class="KVMR.MainPage">
   <StackLayout VerticalOptions = "LayoutOptions.FillAndExpand"
             HorizontalOptions = "LayoutOptions.FillAndExpand">
-    <Image x:Name="imgLogo" VerticalOptions="CenterAndExpand"/>
+    <Image x:Name="imgLogo" Source ="Logo.png" VerticalOptions="CenterAndExpand"/>
     <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
       <Button x:Name="btnPlay" Text="Play" HorizontalOptions="CenterAndExpand" />
       <Button x:Name="btnStop" Text="Stop" HorizontalOptions="CenterAndExpand" />
