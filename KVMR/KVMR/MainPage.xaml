@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KVMR.MainPage">
+  <StackLayout VerticalOptions = "LayoutOptions.FillAndExpand"
+            HorizontalOptions = "LayoutOptions.FillAndExpand">
+    <Label FontAttributes="Bold" FontSize="48" HorizontalOptions="Center">KVMR</Label>
+    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+      <Button x:Name="btnPlay" Text="Play" HorizontalOptions="CenterAndExpand" />
+      <Button x:Name="btnStop" Text="Stop" HorizontalOptions="CenterAndExpand" />
+    </StackLayout>
+  </StackLayout>
+</ContentPage>
