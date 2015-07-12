@@ -92,6 +92,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\drawable\Logo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Logo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Logo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Logo.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\KVMR\KVMR.csproj">

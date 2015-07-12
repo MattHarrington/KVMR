@@ -13,6 +13,9 @@ namespace KVMR
         public MainPage()
         {
             InitializeComponent();
+            imgLogo.Source = Device.OnPlatform(ImageSource.FromUri(new Uri("http://xamarin.com/images/index/ide-xamarin-studio.png")),
+                                               ImageSource.FromFile("Logo.png"),
+                                               ImageSource.FromUri(new Uri("http://xamarin.com/images/index/ide-xamarin-studio.png")));
         }
     }
 }
